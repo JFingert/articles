@@ -1,0 +1,36 @@
+.article-list {
+	width: 50%;
+	margin-left: 25%;
+
+	.article-preview {
+		text-align: left;
+		width: 50%;
+		margin-left: 25%;
+		padding-bottom: 20px;
+		border-bottom: 1px solid black;
+	}
+}
+
+.article-create {
+	text-align: left;
+	width: 25%;
+  position: absolute;
+  left: 15%;
+}
+
+.border-top {
+	border-top: solid 1px black;
+}
+
+.error {
+	color: red;
+}
+
+.inline {
+	display: inline-block;
+	top: 0;
+}
+
+textarea {
+	resize: vertical;
+}
