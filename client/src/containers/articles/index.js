@@ -73,7 +73,7 @@ class Articles extends Component {
 		            <strong>Create an Article:</strong>
 		          </p>
 		          <p>
-			          <label for='title'>Title: </label>
+			          <label htmlFor='title'>Title: </label>
 			          <input
 			            type='text'
 			            name='title'
@@ -82,7 +82,7 @@ class Articles extends Component {
 			          />
 		          </p>
 		          <p>
-			          <label for='body'>Body: </label>
+			          <label htmlFor='body'>Body: </label>
 			          <textarea
 			            type='text'
 			            name='body'
@@ -91,7 +91,7 @@ class Articles extends Component {
 			          />
 		          </p>
 		          <p>
-			          <label for='category'>Category: </label>
+			          <label htmlFor='category'>Category: </label>
 		          	<select 
 			          	name='category'
 			          	value={this.state.categories}
